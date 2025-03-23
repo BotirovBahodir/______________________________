@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 43px;
+    align-items: center;
+}
+
+ul li button {
+    width: 122px;
+    height: 50px;
+    background: #0F2336;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+ul li a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    font-size: 55px;
+}
+
+section button {
+    width: 208px;
+    height: 60px;
+    background: #00CCCC;
+    border: none;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+.right {
+    background-image: url('./Group\ \(1\).png');
+}
+
+.ota-sec3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ota-sec3 img {
+    width: 105px;
+}
+
+.main-sec2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 84px;
+    margin-top: 100px;
+}
+
+.section3 {
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    top: 160px;
+    left: 600px;
+}
+
+form {
+    display: flex;
+    gap: 30px;
+}
+
+form input {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.sec5 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 1200px) {
+    /* 1200px dan kichik ekranlar uchun stil */
+}
+
+@media (max-width: 1024px) {
+    /* 1024px dan kichik ekranlar uchun stil */
+
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* 768px dan kichik ekranlar uchun stil */
+
+    .container {
+        max-width: 568px;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 568px) {
+    /* 568px dan kichik ekranlar uchun stil */
+
+
+    .container {
+        max-width: 320px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
